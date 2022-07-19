@@ -1,0 +1,8 @@
+
+fabrick:
+    urlRoot: "http://localhost:3002"
+    urlGetBalance: "/api/gbs/banking/v4.0/accounts/{accountId}/balance"
+    urlMoneyTransfers: "/api/gbs/banking/v4.0/accounts/{accountId}/payments/money-transfers"
+    urlGetTransactions: "/api/gbs/banking/v4.0/accounts/{accountId}/transactions"
+    Auth-Schema: "S2S"
+    Api-Key: "FXOVVXXHVCPVPBZXIJOBGUGSKHDNFRRQJP"
